@@ -1,6 +1,7 @@
 ﻿# FP2P
-
-Simple yet powerfull peer 2 peer connection
+ 
+* [Website](https://www.fp2p.tk/)
+Simple yet powerfull peer to peer connection and filesharing
 
 ## Getting Started
 
@@ -10,7 +11,7 @@ Simple yet powerfull peer 2 peer connection
 ```
 npm install
 ```
-3. Fix the send funktion in peerJS dataconnection.js to emit chunk information
+3. Fix the send function in peerJS dataConnection.js to emit chunk information
 
 ### Prerequisites
 
