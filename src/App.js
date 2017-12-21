@@ -197,11 +197,15 @@ class App extends Component {
       })
       return;
     }
-    //If own server one day
-    //peer: new Peer(this.state.id, {host: 'localhost', port: 9000, path: '/app'})
+
     this.setState({
       connected: 'loading',
-      peer: new Peer(this.state.id, {key: config.APIkey})
+      peer: new Peer(this.state.id, {
+        host: 'server.fp2p.tk',
+        path: 'app',
+        port: 443,
+        secure: true
+      })
     }, () => this.listenForActions());
   }
 
