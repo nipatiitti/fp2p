@@ -11,7 +11,7 @@ Simple yet powerfull peer to peer connection and filesharing
 ```
 npm install
 ```
-3. Fix the send function in peerJS dataConnection.js to emit chunk information
+(3. If you want the progress bar you will need to manually refactor the send function in PeerJS to emit chunk info)
 
 ### Prerequisites
 
