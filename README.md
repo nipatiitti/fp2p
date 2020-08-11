@@ -1,6 +1,6 @@
 ﻿# FP2P
  
-* [Website](https://www.fp2p.tk/)
+* [Website](https://fp2p-12035.web.app/)
 Simple yet powerfull peer to peer connection and filesharing
 
 ## Getting Started
